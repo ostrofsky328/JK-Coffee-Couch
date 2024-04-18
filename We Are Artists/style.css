@@ -1,0 +1,79 @@
+@import url(https://fonts.google.com/?category=Sans+Serif&selection.family=Lato);
+
+.lato { font-family: 'Lato', sans-serif; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8ca4d4;
+}
+
+/*Code for Nav Bar*/
+header {
+    background-color: #d46b6c;
+    padding: 20px;
+    box-shadow: 3px 4px 5px rgb(0 0 0 / 25%);
+    text-align: center;
+    letter-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .nav-items {
+    padding: 15px;
+    text-decoration: none;
+    color: #ffffffb4;
+    font-size: 12px;
+  }
+
+  .nav-items:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .artists {
+    color: white;
+    text-decoration: underline;
+  }
+
+  /*center*/
+  .welcome {
+   text-align: center;
+   color: white;
+   font-size: 50px;
+  }
+
+  .coming-soon {
+    padding-top: 300px;
+  }
+
+  /*Code for Footer*/
+footer {
+    background-color: #d46b6c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-flex {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.social {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    width: 30px;
+    margin: 0;
+}
+
+.copyright {
+    padding-left: 20px;
+}
